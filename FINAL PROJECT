@@ -1,0 +1,525 @@
+//HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+<link rel="stylesheet" href="1st css.css">
+</head>
+<body>
+    <div class="login-box">
+        <h2>LOGIN</h2>
+        <form>
+            <div class="user-box">
+                <input type="text" name="" required="">
+            <label>Username</label>    
+            </div>
+            <div class="user-box">
+                <input type="password" name="" required="">
+                <label>password</label>
+            </div>
+            <a href="#">
+                <a class="active" href="home.html">Submit</a>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                
+
+            </a>
+            
+        </form>
+    </div>
+</body>
+</html>
+
+//css
+html{
+    height: 100%;
+} 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.login-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.login-box .user-box{
+    position: relative;
+}
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label{
+      top: -20px;
+      left: 0;
+      color: #03e9f4;
+      font-size: 12px;
+  }
+  .login-box form a{
+      position: relative;
+      display: inline-block;
+      padding: 10px 20px;
+      color: #03e9f4;
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: 0.5s;
+      margin-top: 40px;
+      letter-spacing: 4px;
+  }
+
+  .login-box  a:hover{
+      background: #03e9f4;
+      color: #fff;
+      box-shadow: 0 0 5px #03e9f4,
+      0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+  }
+ 
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+
+
+
+//HTML
+<html>
+    <center>
+    <h1><span style="background: red;">MENU</span></h1>
+    </center>
+    <body background="C:\Users\3\Documents\net1\itachi.jpg">
+        <div>
+            
+           
+            </div>
+
+
+            <div1>
+            <center>
+        <h2>
+           
+                
+                    
+                </span>
+
+                <h1>
+                    <button type="button" class="button">
+                        <span class="button__"></span>
+                        <a class="active" href="third.html"><ion-icon name="star-outline"></ion-icon>
+                    </button>
+                    
+            
+            FAVORITES</h2>
+        <body>
+            
+                    
+                    
+                    
+            <span style="background:red;">greatest glory in living lies not in never falling, but in rising every time we fall<span>
+        </body>
+    </center>
+            </div1>
+    <div2>
+       
+        <center>
+        <h1>
+            <button type="button" class="button">
+                <span class="button__"></span>
+                <a class="active" href="2nd.html"><ion-icon name="person-circle-outline"></ion-icon>
+            </button>
+            About Me</h1>
+        <body>
+            <span style="background: red;">Don't waste your energy trying to change opinions … Do your thing, and don't care if they like it</span>
+        </body>
+    </center>
+    </div2>
+
+
+
+        </div>
+        
+        
+        <div>
+            
+        
+            
+        </div>
+        <center>
+        <h1>
+            <button type="button" class="button">
+                <span class="button__"></span>
+                <a class="active" href="activity 5.html"><ion-icon name="heart-outline"></ion-icon>
+            </button>
+            FAMILY</h1>
+            <span style="background: red;">family, a group of persons united by the ties of marriage, blood, or adoption, constituting a single household and interacting with each other</span>
+        </center>
+        <div>
+            
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        
+    </body>
+</html>
+
+//HTML
+<html>
+
+    <h1>
+        
+        <center>
+        <span style="background-color: red;">ABOUT ME</span>
+    </h1>
+</center>
+    <body background="C:\Users\3\Documents\net1\mad.jpg"></body>
+    <div>
+        <center>
+        <h1>
+            <span style="color: red;">Ilove Anime</span>
+            <h2><span style="color red:">your weakness is my existence -Madara</span></h2>
+        </body>
+        
+        </center>
+    </div>
+    
+    <p align ="left"><img src="C:\Users\3\Documents\net1\van.jpg" width="250px"></p>
+    <h1>Van Chester Ridual</h1>
+    <div>
+        
+        <table width ="1000px" border="1px">
+    
+                       
+        
+        <tr>
+            <td>Civil Status</td>
+            <td>Single</td>
+            
+        </tr>
+        <td>Place of birth</td>
+        <td>Manila</td>
+        <tr>
+            <tr>
+                <td>Religion</td>
+                <td>Catholic</td>
+            </tr>
+            <tr>
+                <td>Citizenship</td>
+                <td>Filipino</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>168cm</td>
+                
+            </tr>
+            
+        
+           
+
+        </center>
+        <div>
+            <h2>
+                <a class="active" href="home.html"><ion-icon name="home-outline"></ion-icon></a>
+                <button type="button" class="button">
+                    <span class="button__"></span>
+                    
+                    
+                    </span>
+    
+                </button>
+                
+                </h2>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                
+            
+        </div>
+               
+            
+        
+        
+    </div>
+    <div>
+       
+    </div>
+    
+
+</html>
+
+//html
+<html>
+  <head>
+      <div>
+          <h1>
+        <button type="button" class="button">
+            <span class="button__"></span>
+            <a class="active" href="home.html">Home<ion-icon name="home-outline"></ion-icon>
+        </button>
+    </span>
+</h1>
+      </div>
+    <title> MY THIRD ACTIVITY </title>
+    
+</div>
+    <center>
+  </head>
+  <div>
+    
+  </div>
+  <div>
+  
+   MY THIRD ACTIVITY
+  </div>
+  <h1>YOUTUBE</h1>
+  <a href="https://www.youtube.com/" target="_blank">
+  <img src="C:\Users\3\Desktop\hmtl\yt.png" style="display:block;margin: auto; margin-right: auto;" />
+</a>
+
+  
+  <body><mark> Youtube is my stress reliever i can watch my favorite vlogger when I'm bored</mark> </body>
+  
+  </style>
+  <body background="C:\Users\3\Desktop\hmtl\anya.jpg">
+    <div>
+      <h1>9anime.to</h1>
+      <a href="https://9anime.vc//" target="_blank">
+<img src="C:\Users\3\Desktop\hmtl\9anime.png"style="display:block;margin: auto; margin-right: auto;" />
+      <body><mark>Ilove this website because i can watch free anime from this website</mark></body>
+    </a>
+    </div>
+    <div><h1> Facebook </h1>
+        <a href="https://www.facebook.com/" target="_blank">
+        <img src="C:\Users\3\Desktop\hmtl\fb.png"style="display:block;margin: auto; margin-right: auto;" />
+    </a>
+      <body></body><mark> is now the one of the most social media platorm that people
+       using because it's easy to communicate with Facebook</mark></div>
+       <div><h1>Instagram</h1>
+        <a href="https://www.instagram.com/" target="_blank">
+        <img src="C:\Users\3\Desktop\hmtl\insta.jpg"style="display:block;margin: auto; margin-right: auto;" />
+    </a>
+        <body><mark> Instagram is also a social media platform i like it because toxic people is not 
+            exist in instagram</mark></body></div>
+          </div>
+          <div>
+              <h1> yts </h1>
+              <a href="https://yts.mx/" target="_blank">
+              <img src="C:\Users\3\Desktop\hmtl\yts.png"style="display:block;margin: auto; margin-right: auto;" /></a>
+              <body><mark> You can download free latest movies in this website in hd quality </mark></body>
+          </div>
+          <div>
+           
+                
+                
+                </span>
+          </div>
+
+          <div>
+            
+          
+    
+    
+</html>
+          </style>
+        
+</html>
+</center>
+
+//html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Our Team Section</title>
+	<link rel="stylesheet" href="activity 5 css.css">
+</head>
+<body>
+ 
+<div class="wrapper">
+  <h1>MY FAMILY</h1>
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+        <img src="C:\Users\3\Downloads\baby brother.jpg" alt="Team_image">
+      </button>
+      
+          
+      </div>
+    <div>
+      <h3>Baby brother  </h3>
+      <h3>VON CEDRIC </h3>
+      <p class="role">Role<p>
+      <p>Maging Cute, Mag laro at umiyak </p>
+      
+      <center>
+        <a href="act 5 ced.html">
+    
+          <button onclick="doSomething()" style="background-color:#000000;color:#ff0000;border-radius:5px">VON CEDRIC PROFILE
+            <a href="act 5 ced.html">
+      </center>
+      </div>
+
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="C:\Users\3\Documents\net1\van.jpg" alt="Team_image">
+      </div>
+    
+      <h3>ME</h3>
+      <h3>Van Chester</h3>
+      <p class="role">Role</p>
+      <p>Mag aaral na di alam ang tatahakin sa buhay</p>
+      
+      <div>
+      <center>
+        <a href="2nd.html">
+    
+          <button onclick="doSomething()" style="background-color:#000000;color:#ff0000;border-radius:5px">VAN CHESTER PROFILE
+            <a href="2nd.html">
+      </center>
+    </div>
+    </div>
+      
+    <div class="team_member">
+      <div class="team_img">
+        <img src="C:\Users\3\Downloads\little sisteer.jpg" alt="Team_image">
+        
+      </div>
+      <h3>Little Sister</h3>
+      <h3>Cheska</h3>
+    
+      <p class="role">Role</p>
+      <p>Kumain, Matulog, Gumala</p>
+    <div>
+      <center>
+        <a href="act 5 cheska.html">
+          
+          <button onclick="doSomething()" style="background-color:#000000;color:#ff0000;border-radius:5px">Cheska PROFILE
+            <a href="act 5 cheska.html">
+            
+          </center>
+    </div>
+    </div>
+    
+  </div>
+  
+    
+</div>	
+<div>
+  
+  
+</div>
+
+</body>
+</html>
